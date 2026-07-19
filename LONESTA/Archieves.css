@@ -1,0 +1,153 @@
+body{
+    background-image:url(images/Stars\ Banner\ Gif.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+background-size: cover;
+
+}
+
+.btn{
+    
+}
+#xbutton {
+      font-size: 20px;
+      font-weight: bold;
+      color: white;
+      background: rgb(76, 68, 156);
+      border: none;
+      padding: 5px 10px;
+      cursor: pointer;
+      width: 15px;
+      box-shadow:white 2px 2px 4px;
+      border-radius: 5px;
+      
+      
+    }
+#bluebar{
+  background:transparent;
+  text-align: center;
+  color: aliceblue;
+  padding: 6px;
+  border: 1px white solid;
+  font-family: "Black Han Sans", sans-serif;
+  box-shadow: white 2px 5px 0px;
+  border-radius: 5px;
+}
+
+#xbutton a:hover{
+    color: red;
+
+}
+
+#Meme{
+    margin-top: 30px;
+    text-align: center;
+    
+    
+}
+#Meme img{
+    border: 3px white solid;
+    border-radius: 10px;
+}
+
+#text1{
+    color: white;
+    width: 1000px;
+    text-align: center;
+    margin-left: 125px;
+    font-family: "Press Start 2P" ,'Courier New', Courier, monospace;
+    line-height: 20px;
+} 
+
+#homepage img{
+    border: 5px white solid;
+    border-radius: 10px;
+    box-shadow: rgb(193, 204, 212) -6px -6px 0px;
+}
+#homepage{
+    margin-left: 8px;
+    margin-top: 40px;
+}
+
+#text2{
+    color: white;
+    font-family: "Press Start 2P" ,'Courier New', Courier, monospace;
+    float: right;
+    margin-right: 246px;
+    word-wrap: 20px;
+    width: 580px;
+    line-height: 20px;
+}
+
+#Big{
+    text-align: center;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#tittle1{
+    border: 2px white solid;
+    border-radius: 10px;
+    width: 500px;
+    margin-left: 360px;
+
+}
+
+#tittle2{
+    margin-top: 100px;
+    border: 2px white solid;
+    border-radius: 10px;
+    width: 345px;
+    margin-left: 5px;
+
+}
+#Clear{
+    text-align: center;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+}
+#next img{
+    margin-top: 40px;
+margin-left: 895px;
+border: 3px white solid;
+    border-radius: 10px;
+}
+
+#mmm{
+    text-align: center;
+    color: rgb(214, 30, 30);
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#tittle3{
+    margin-top: 375px;
+    border: 2px white solid;
+    border-radius: 10px;
+    width: 345px;
+    margin-left: 5px;
+    margin-left: 895px;
+    font-weight: bolder;
+
+}
+
+#text3{
+    color: white;
+    font-family: "Press Start 2P" ,'Courier New', Courier, monospace;
+    float: left;
+    margin-right: 246px;
+    word-wrap: 20px;
+    width: 580px;
+    line-height: 20px;
+}
+
+#mmm a:hover{
+    color: rgb(189, 9, 9);
+
+}
+.click{
+    margin-left: 100px;
+   padding-top: 15px;
+}

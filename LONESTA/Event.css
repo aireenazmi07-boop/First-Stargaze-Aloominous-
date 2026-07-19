@@ -1,0 +1,70 @@
+body{
+    background-image:url(images/Stars\ Banner\ Gif.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+background-size: cover;
+
+}
+
+#bluebar{
+  background:transparent;
+  text-align: center;
+  color: aliceblue;
+  padding: 6px;
+  border: 1px white solid;
+  font-family: "Black Han Sans", sans-serif;
+  box-shadow: white 2px 5px 0px;
+  border-radius: 5px;
+}
+
+#xbutton {
+      font-size: 20px;
+      font-weight: bold;
+      color: white;
+      background: rgb(76, 68, 156);
+      border: none;
+      padding: 5px 10px;
+      cursor: pointer;
+      width: 15px;
+      box-shadow:white 2px 2px 4px;
+      border-radius: 5px;
+      
+      
+    }
+
+#Zimbabwe{
+    margin-top: 50px;
+    margin-left: 250px;
+}
+
+#Zimbabwe img{
+    border: 5px white solid;
+    border-radius: 10px;
+    box-shadow: rgb(193, 204, 212) -6px -6px 0px;
+    margin-right: 8px;
+}
+
+#here{
+    border: aquamarine solid 3px;
+    width:500px;
+    text-align: center;
+    margin-left: 365px;
+    padding: 3px;
+    margin-top: 8px;
+    box-shadow: palevioletred 4px 4px 0px 0px;
+    border-radius: 5px;
+    
+   
+
+}
+
+#babs{
+    color: aquamarine;
+    font-family: "Press Start 2P" ,'Courier New', Courier, monospace;
+    text-align: center;
+    width: 500px;
+    margin-left: 1px;
+     text-shadow: palevioletred 3px 3px 0px ;
+     line-height: 20px;
+}
+

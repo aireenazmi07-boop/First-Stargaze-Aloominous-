@@ -1,0 +1,448 @@
+body{
+    background-image:url(images/giphy.gif);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+}
+
+h1{
+    color:rgb(238,223,252);
+    font-family:"Press Start 2P",sans-serif;
+    border:5px inset;
+    border-radius:10px;
+    padding:10px;
+    text-align:center;
+}
+
+.content{
+    position:relative;
+}
+
+.image-container img{
+    width:300px;
+    height:300px;
+    object-fit:cover;
+    border-radius:10px;
+    margin-left:480px;
+}
+
+#img1{
+    position:relative;
+    margin-top:28px;
+    z-index:1;
+}
+
+#img2{
+    position:absolute;
+    width:359px;
+    margin-left:450px;
+    z-index:2;
+
+    pointer-events:none;
+}
+
+.buttons-container{
+    display: grid;
+    grid-template-columns: repeat(2, 250px);
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+button{
+    width: 250px;
+    background: transparent;
+    border: 2px solid rgb(154,243,129);
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 0;
+}
+
+button a{
+    display: block;
+    padding: 20px;
+    color: aquamarine;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 12px;
+}
+
+button:hover{
+    border-color: red;
+}
+
+button:hover a{
+    color: red;
+}
+
+button:active a{
+    color: aquamarine;
+}
+
+
+#green{
+    width:800px;
+    margin-left:225px;
+}
+
+#abt{
+    color:aquamarine;
+    text-align:center;
+    border:2px inset rgb(154,243,129);
+    border-radius:10px;
+    padding:10px;
+    font-family:"Press Start 2P",sans-serif;
+    cursor:pointer;
+}
+
+#description{
+
+    display:none;
+
+    max-width:700px;
+
+    margin:15px auto;
+
+    padding:10px;
+
+    color:aquamarine;
+
+    border:1px solid rgb(154,243,129);
+
+    border-radius:8px;
+
+    text-align:center;
+
+    line-height:20px;
+
+    font-size:small;
+
+    font-family:"Press Start 2P",sans-serif;
+
+}
+
+#description.show{
+    display:block;
+}
+
+#FAQ{
+
+    width:800px;
+    margin-left:225px;
+
+}
+
+#fa{
+
+    color:aquamarine;
+
+    border:2px inset rgb(154,243,129);
+
+    border-radius:10px;
+
+    padding:10px;
+
+    text-align:center;
+
+    font-family:"Press Start 2P",sans-serif;
+
+}
+
+#questions{
+
+    width:775px;
+
+    margin-left:225px;
+
+    border:2px inset rgb(154,243,129);
+
+    border-radius:10px;
+
+    padding:10px;
+
+}
+
+#q1,
+#q2{
+
+    color:aquamarine;
+
+    border:2px solid rgb(154,243,129);
+
+    border-radius:5px 5px 0 0;
+
+    padding:15px;
+
+    font-size:13px;
+
+    font-family:"Press Start 2P",sans-serif;
+
+}
+#q3{
+    color:aquamarine;
+
+    border:2px solid rgb(154,243,129);
+
+    border-radius:5px 5px 0 0;
+
+    padding:15px;
+
+    font-size:13px;
+
+    font-family:"Press Start 2P",sans-serif;
+}
+#q4{
+    color:aquamarine;
+
+    border:2px solid rgb(154,243,129);
+
+    border-radius:5px 5px 0 0;
+
+    padding:15px;
+
+    font-size:13px;
+
+    font-family:"Press Start 2P",sans-serif;
+}
+#q5{
+    color:aquamarine;
+
+    border:2px solid rgb(154,243,129);
+
+    border-radius:5px 5px 0 0;
+
+    padding:15px;
+
+    font-size:13px;
+
+    font-family:"Press Start 2P",sans-serif;
+}
+
+/* ---------- FAQ POPUPS ---------- */
+
+.faq-arrow{
+    cursor:pointer;
+    float:right;
+    color:aquamarine;
+}
+
+.faq-arrow:hover{
+    color:red;
+}
+
+.faq-popup{
+
+    display:none;
+
+    position:absolute;
+
+    width:260px;
+
+    background:black;
+
+    border:2px solid rgb(154,243,129);
+
+    border-radius:8px;
+
+    color:aquamarine;
+
+    padding:10px;
+
+    font-family:"Press Start 2P",sans-serif;
+
+    font-size:10px;
+
+    line-height:18px;
+
+    z-index:999;
+
+    cursor:default;
+}
+
+.popup-header{
+
+    display:flex;
+
+    justify-content:flex-end;
+
+    cursor:move;
+
+    margin-bottom:8px;
+
+}
+
+.close-btn{
+
+    cursor:pointer;
+
+    font-size:16px;
+
+    color:red;
+
+    user-select:none;
+
+}
+
+.close-btn:hover{
+
+    color:white;
+
+}
+
+#nex{
+
+    width:800px;
+    margin-left:225px;
+
+}
+#nex img{
+    border:rgb(154,243,129) solid 2px ;
+    border-radius: 5px;
+    margin-left: 250px;
+}
+
+#next{
+
+    margin-top:50px;
+
+    color:aquamarine;
+
+    border:2px inset rgb(154,243,129);
+
+    border-radius:10px;
+
+    padding:10px;
+
+    text-align:center;
+
+    font-family:"Press Start 2P",sans-serif;
+
+}
+
+
+#con{
+
+    width:800px;
+    margin-left:225px;
+
+}
+
+#contacts{
+
+    margin-top:50px;
+
+    color:aquamarine;
+
+    border:2px inset rgb(154,243,129);
+
+    border-radius:10px;
+
+    padding:10px;
+
+    text-align:center;
+
+    font-family:"Press Start 2P",sans-serif;
+
+}
+#icons img{
+    border-radius: 100%;
+    margin-left: 3px;
+   
+}
+#icons{
+    margin-left: 345px;
+}
+
+#texbox{
+    margin-top:10px;
+
+    color:aquamarine;
+
+    border:2px inset rgb(154,243,129);
+    border-radius: 5px;
+    width: 500px;
+    margin-left: 150px;
+    font-family: "Press Start 2P",sans-serif;
+    padding: 3px;
+
+}
+#loks{
+    text-align: center;
+}
+
+/* ---------- FAQ POPUPS ---------- */
+
+.faq-arrow{
+    cursor:pointer;
+    float:right;
+    color:aquamarine;
+}
+
+.faq-arrow:hover{
+    color:red;
+}
+
+.faq-popup{
+
+    display:none;
+
+    position:absolute;
+
+    width:260px;
+
+    background:black;
+
+    border:2px solid rgb(154,243,129);
+
+    border-radius:8px;
+
+    color:aquamarine;
+
+    padding:10px;
+
+    font-family:"Press Start 2P",sans-serif;
+
+    font-size:10px;
+
+    line-height:18px;
+
+    left:50%;
+
+    top:300px;
+
+    z-index:999;
+
+    cursor:default;
+
+}
+
+.popup-header{
+
+    display:flex;
+
+    justify-content:flex-end;
+
+    cursor:move;
+
+    margin-bottom:8px;
+
+}
+
+.close-btn{
+
+    cursor:pointer;
+
+    font-size:16px;
+
+    color:red;
+
+    user-select:none;
+
+}
+
+.close-btn:hover{
+
+    color:white;
+
+}

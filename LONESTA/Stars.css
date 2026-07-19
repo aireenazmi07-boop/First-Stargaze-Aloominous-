@@ -1,0 +1,403 @@
+html{
+  background-color:#008080 ;
+  
+}
+
+#xbutton {
+      font-size: 20px;
+      font-weight: bold;
+      color: white;
+      background: red;
+      border: none;
+      padding: 5px 10px;
+      cursor: pointer;
+      width: 15px;
+      box-shadow: rgb(149, 46, 37) 2px 2px 4px;
+      
+    }
+#bluebar{
+  background: #000080;
+  text-align: center;
+  color: aliceblue;
+  padding: 6px;
+  border: 1px;
+  font-family: "Black Han Sans", sans-serif;
+}
+#Aritence{
+  float: right;
+  width: 500px;
+word-wrap: 20px;
+margin-right: 480px;
+font-size: 10px;
+  font-family: "Roboto Condensed", sans-serif;
+ font-size: 15px;
+
+}
+
+
+
+#Arinum{
+  font-size: 30px;
+  font-family: "Black Han Sans", sans-serif;
+  font-weight: 400px;
+background-color:white;
+box-shadow: grey 5px 5px 0px;
+width: 250px;
+}
+#Ari1{
+  border-bottom: black solid 1px;
+}
+
+#Taurtence{
+    float: right;
+    width: 500px;
+    margin-top: 15px;
+font-size: 10px;
+  font-family: "Roboto Condensed", sans-serif;
+ font-size: 15px;
+ font-weight: normal;
+
+}
+#Taurus{
+  padding: 10px;
+   
+   
+}
+
+#raus img{
+    float: right;
+    clear: both;
+    padding-bottom: 3px;
+
+}
+
+
+#num2{
+   float: right;
+ font-size: 30px;
+  font-family: "Black Han Sans", sans-serif;
+  font-weight: 400px;
+  font-style: normal;
+background-color:white;
+box-shadow: grey 5px 5px 0px;
+width: 250px;
+}
+
+#num3{
+ float: left;
+ margin-top: 25px;
+ font-size: 30px;
+  font-family: "Black Han Sans", sans-serif;
+  font-weight: 400px;
+  font-style: normal;
+background-color:white;
+box-shadow: grey 5px 5px 0px;
+width: 250px;
+ 
+}
+#blood{
+ clear: both;
+ margin-top: 20px;
+ border-top: black solid 1px;
+}
+#bloomage{
+margin-top:5px ;
+float: left;
+ border-bottom: black solid 1px;
+}
+#bloodsent{
+  float: right;
+  width: 500px;
+word-wrap: 20px;
+margin-right: 480px;
+padding-left: 10px;
+font-size: 10px;
+  font-family: "Roboto Condensed", sans-serif;
+ font-size: 15px;
+ font-style: normal;
+font-weight: normal;
+
+}
+
+#num4{
+  float: right;
+ font-size: 30px;
+  font-family: "Black Han Sans", sans-serif;
+  font-weight: 400px;
+  font-style: normal;
+background-color:white;
+box-shadow: grey 5px 5px 0px;
+width: 250px;
+
+}
+#monbow{
+  
+}
+  
+#mobsent{
+  float: right;
+  word-wrap: 20px;
+  margin-left: 480px;
+  padding-right: 10px;
+  width: 500px;
+  font-size: 10px;
+  font-family: "Roboto Condensed", sans-serif;
+ font-size: 15px;
+font-weight: normal;
+}
+#bow{
+ float: right;
+ clear: both;
+}
+
+#supersentence{
+  float: right;
+  width: 500px;
+word-wrap: 20px;
+margin-right: 480px;
+font-size: 10px;
+  font-family: "Roboto Condensed", sans-serif;
+ font-size: 15px;
+
+}
+
+
+
+#num1{
+  font-size: 30px;
+  font-family: "Black Han Sans", sans-serif;
+  font-weight: 400px;
+background-color:white;
+box-shadow: grey 5px 5px 0px;
+width: 250px;
+}
+#super1{
+  border-bottom: black solid 1px;
+}
+
+#moonharvest{
+    float: right;
+    width: 500px;
+    margin-top: 15px;
+font-size: 10px;
+  font-family: "Roboto Condensed", sans-serif;
+ font-size: 15px;
+ font-weight: normal;
+
+}
+#harvest{
+  padding: 10px;
+   
+   
+}
+
+#vest img{
+    float: right;
+    clear: both;
+    padding-bottom: 3px;
+
+}
+
+
+#num2{
+    float: right;
+    font-size: 30px;
+  font-family: "Black Han Sans", sans-serif;
+  font-weight: 400px;
+  font-style: normal;
+  background-color:white;
+box-shadow: grey 5px 5px 0px;
+width: 275px;
+
+}
+#num11{
+ float: left;
+ margin-top: 25px;
+ font-size: 30px;
+  font-family: "Black Han Sans", sans-serif;
+  font-weight: 400px;
+  font-style: normal;
+background-color:white;
+box-shadow: grey 5px 5px 0px;
+width: 270px;
+ 
+}
+#Aquarius{
+ clear: both;
+ margin-top: 20px;
+ border-top: black solid 1px;
+}
+#bloomage{
+margin-top:5px ;
+float: left;
+ border-bottom: black solid 1px;
+}
+#bloodsent{
+  float: right;
+  width: 500px;
+word-wrap: 20px;
+margin-right: 480px;
+padding-left: 10px;
+font-size: 10px;
+  font-family: "Roboto Condensed", sans-serif;
+ font-size: 15px;
+ font-style: normal;
+font-weight: normal;
+
+}
+
+#num4{
+  float: right;
+ font-size: 30px;
+  font-family: "Black Han Sans", sans-serif;
+  font-weight: 400px;
+  font-style: normal;
+background-color:white;
+box-shadow: grey 5px 5px 0px;
+width: 250px;
+
+}
+#monbow{
+  
+}
+  
+#mobsent{
+  float: right;
+  word-wrap: 20px;
+  margin-left: 480px;
+  padding-right: 10px;
+  width: 500px;
+  font-size: 10px;
+  font-family: "Roboto Condensed", sans-serif;
+ font-size: 15px;
+font-weight: normal;
+}
+#bow{
+ float: right;
+ clear: both;
+}
+
+#supersentence{
+  float: right;
+  width: 500px;
+word-wrap: 20px;
+margin-right: 480px;
+font-size: 10px;
+  font-family: "Roboto Condensed", sans-serif;
+ font-size: 15px;
+
+}
+
+
+
+#num1{
+  font-size: 30px;
+  font-family: "Black Han Sans", sans-serif;
+  font-weight: 400px;
+background-color:white;
+box-shadow: grey 5px 5px 0px;
+width: 250px;
+}
+#super1{
+  border-bottom: black solid 1px;
+}
+
+#moonharvest{
+    float: right;
+    width: 500px;
+    margin-top: 15px;
+font-size: 10px;
+  font-family: "Roboto Condensed", sans-serif;
+ font-size: 15px;
+ font-weight: normal;
+
+}
+#harvest{
+  padding: 10px;
+   
+   
+}
+
+#vest img{
+    float: right;
+    clear: both;
+    padding-bottom: 3px;
+
+}
+
+
+#num2{
+    float: right;
+    font-size: 30px;
+  font-family: "Black Han Sans", sans-serif;
+  font-weight: 400px;
+  font-style: normal;
+  background-color:white;
+box-shadow: grey 5px 5px 0px;
+width: 275px;
+
+}
+#num9{
+ float: left;
+ margin-top: 25px;
+ font-size: 30px;
+  font-family: "Black Han Sans", sans-serif;
+  font-weight: 400px;
+  font-style: normal;
+background-color:white;
+box-shadow: grey 5px 5px 0px;
+width: 285px;
+ 
+}
+#Sagittarius{
+ clear: both;
+ margin-top: 20px;
+ border-top: black solid 1px;
+}
+#bloomage{
+margin-top:5px ;
+float: left;
+ border-bottom: black solid 1px;
+}
+#bloodsent{
+  float: right;
+  width: 500px;
+word-wrap: 20px;
+margin-right: 480px;
+padding-left: 10px;
+font-size: 10px;
+  font-family: "Roboto Condensed", sans-serif;
+ font-size: 15px;
+ font-style: normal;
+font-weight: normal;
+
+}
+
+#num4{
+  float: right;
+ font-size: 30px;
+  font-family: "Black Han Sans", sans-serif;
+  font-weight: 400px;
+  font-style: normal;
+background-color:white;
+box-shadow: grey 5px 5px 0px;
+width: 250px;
+
+}
+
+#mobsent{
+  float: right;
+  word-wrap: 20px;
+  margin-left: 480px;
+  padding-right: 10px;
+  width: 500px;
+  font-size: 10px;
+  font-family: "Roboto Condensed", sans-serif;
+ font-size: 15px;
+font-weight: normal;
+}
+#bow{
+ float: right;
+ clear: both;
+}
+    
